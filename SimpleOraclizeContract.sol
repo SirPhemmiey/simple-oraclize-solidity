@@ -8,7 +8,7 @@ contract SimpleOraclizeContract is usingOraclize {
     event LogPriceUpdated(string price);
     event LogNewOraclizeQuery(string description);
 
-    function ExampleContract() payable {
+    function SimpleOraclizeContract() payable {
         LogConstructorInitiated("Constructor was initiated. Call 'updatePrice()' to send the Oraclize Query.");
     }
 
